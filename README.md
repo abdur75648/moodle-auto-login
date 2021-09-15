@@ -1,6 +1,6 @@
 # Moodle Auto Login
 ### A chrome extension that automatically logs in to IIT Delhi Moodle
-Everything (Captcha, user_id & password) will be automatically filled & you'll be directly logged in less than a second💥
+Add this extension: Every time you open moodle, you'll be logged in direclty in less than a second💥
 
 ## How to use
 1. Download this repository as a zip file & extract it anywhere
