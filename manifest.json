@@ -11,10 +11,6 @@
   {
     "js": ["moodle-auto-login.js"],
     "matches": ["https://moodle.iitd.ac.in/login/index.php#myoverview_courses_view"]
-  },
-  {
-    "js": ["moodle-auto-login.js"],
-    "matches": ["https://moodle.iitd.ac.in"]
   }]
 
 }
