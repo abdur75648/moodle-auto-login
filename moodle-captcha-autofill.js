@@ -1,3 +1,6 @@
+// @Author: Abdur Rahman
+// Moodle IIT Delhi Captcha Autofill Moodle
+
 console.log("********** Captcha Autofill Moodle Running **********")
 
 var textContent = document.body.textContent;
@@ -33,4 +36,8 @@ var delayTime = 100;
 
 setTimeout(function() {
  document.getElementById("valuepkg3").value = nameValue;
+/*Uncomment the 3 lines below and accordingly FILL them to automatically fill user ID & Password and login*/
+ // document.getElementById("username").value = "kerberos_id_here";
+ // document.getElementById("password").value = "password_here";
+ // document.getElementById('loginbtn').click();
 }, delayTime);
