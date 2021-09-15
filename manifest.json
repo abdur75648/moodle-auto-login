@@ -1,16 +1,20 @@
 {
   "manifest_version": 2,
-  "name": "moodle-captcha-autofill",
-  "version": "1.0.0",
+  "name": "moodle-auto-login",
+  "version": "2.0.0",
   "author": "Abdur Rahman (IIT Delhi)",
-  "description": "It Autofills IIT Delhi Moodle Captcha",
+  "description": "A chrome extension that automatically logs in to IIT Delhi Moodle",
   "content_scripts": [{
-    "js": ["moodle-captcha-autofill.js"],
+    "js": ["moodle-auto-login.js"],
     "matches": ["https://moodle.iitd.ac.in/login/index.php"]
   },
   {
-    "js": ["moodle-captcha-autofill.js"],
+    "js": ["moodle-auto-login.js"],
     "matches": ["https://moodle.iitd.ac.in/login/index.php#myoverview_courses_view"]
+  },
+  {
+    "js": ["moodle-auto-login.js"],
+    "matches": ["https://moodle.iitd.ac.in"]
   }]
 
 }
