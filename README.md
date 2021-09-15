@@ -1,12 +1,16 @@
-# moodle-captcha-autofill
-A chrome extension to auto-fill the captcha in IIT Delhi Moodle
+# Moodle Auto Login
+### A chrome extension that automatically logs in to IIT Delhi Moodle
+Everything (Captcha, user_id & password) will be automatically filled & you'll be directly logged in less than a second💥
+
 ## How to use
 1. Download this repository as a zip file & extract it anywhere
-2. Go to Settings >> Extensions in chrome browser
-3. Enable "Developer mode" & then click add "Load Unpacked"
-4. Choose this directory
-5. That's It! Now the Moodle captcha will be automatically filled!
+2. Fill your kerberos id & password in line 40 & 41 repectively, in 'moodle-captcha-autofill.js'
+3. Go to Settings >> Extensions in chrome browser
+4. Enable "Developer mode" & then click add "Load Unpacked"
+5. Choose this directory
+6. That's It!✌
+
 
 ## Note
-1. moodle-captcha-autofill.js & manifest.json files must be there in the directory
-2. If you have any suggestion, please create an issue or make a pull request
+If you have any suggestions, please create an issue or make a pull request
+Please star mark this repo ⭐ & share with others if you like it
