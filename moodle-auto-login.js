@@ -32,11 +32,11 @@ else
 	nameValue = parseInt(splits[8]);
 }
 
-var delayTime = 100;
+var delayTime = 1;
 
 setTimeout(function() {
  document.getElementById("valuepkg3").value = nameValue;
-/* FILL the 3 lines below with your user ID & Password (Keep them in inverted commas!)*/
+/* IMPORTANT - FILL the 3 lines below with your user ID & Password (Keep them in inverted commas!)*/
  document.getElementById("username").value = "kerberos_id_here";
  document.getElementById("password").value = "password_here";
  document.getElementById('loginbtn').click();
