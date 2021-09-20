@@ -13,4 +13,4 @@ Add this extension: Every time you open moodle, you'll be logged in direclty in 
 
 ## Note
 If you have any suggestions, please create an issue or make a pull request
-### Please star mark this repo ⭐ & share with others if you like it
+### Please share this with others & star mark this repo ⭐ if you like it!
